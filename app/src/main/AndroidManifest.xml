@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.learna_ndroid.kiranaapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".ActivationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+
+        </activity>
+
+        <activity
+            android:name=".CustomerActivity"
+            android:label="@string/title_activity_customer"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <activity
+            android:name=".SupplierActivity"
+            android:label="@string/title_activity_supplier"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_otpvalidation"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <activity
+            android:name=".ProductDownloadActivity"
+            android:label="@string/title_activity_product_download"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".SaleActivity"
+            android:label="@string/title_activity_sale"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".SalesmanActivity"
+            android:label="@string/title_activity_salesman"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".GroupAndArrangeProductsActivity"
+            android:label="@string/title_activity_group_and_arrange_products"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".SaleHomeActivity"
+            android:label="@string/title_activity_sale_home"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".PurchaseHomeActivity"
+            android:label="@string/title_activity_purchase_home"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".PurchaseActivity"
+            android:label="@string/title_activity_purchase"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".MyProfileActivity"
+            android:label="@string/title_activity_my_profile"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".OTPValidationActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewCart"
+            android:label="@string/title_activity_view_cart"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".SignUpHomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".ShowAllCustActivity"
+            android:label="@string/title_activity_show_all_cust"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".ShowAllSuppActivity"
+            android:label="@string/title_activity_show_all_supp"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+
+        <activity
+            android:name=".ShowAllSalesmanAcivity"
+            android:label="@string/title_activity_show_all_supp"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light" >
+        </activity>
+        <activity
+            android:name=".SerchProductByGroup"
+            android:label="@string/title_activity_serch_product_by_group"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+
+        <activity
+            android:name=".ProductMasterShowAll"
+            android:label="@string/title_activity_product_master_show_all"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".MastersActivity"
+            android:label="@string/title_activity_masters"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".PaymentTypeMasterActivity"
+            android:label="@string/title_activity_payment_type_master"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".ShowAllPaymentTypeMasterActivity"
+            android:label="@string/title_activity_show_all_master_payment"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".BrandMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".ShowAllBrandMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".CategoryMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".ShowAllCategoryMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".SubCategoryMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".ShowAllSubCategoryMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".ProductGroupMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity android:name=".ShowAllProductGroupMasterActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".UomMasterActivity"
+            android:label="@string/title_activity_uom_master"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+        <activity
+            android:name=".ShowAllUomMasterActivity"
+            android:label="@string/title_activity_show_all_uom_master"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".CompanyMasterActivity"
+            android:label="@string/title_activity_company_master"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <activity
+            android:name=".ShowAllCompanyMasterActivity"
+            android:label="@string/title_activity_show_all_company_master"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Holo.Light">
+        </activity>
+
+        <receiver android:name="com.classes.BroadCastReciever">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
